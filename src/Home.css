@@ -1,0 +1,31 @@
+/* Image styling */
+.image-container img {
+    border-radius: 50%;
+  }
+  
+  /* Cards Section */
+  .cards-row {
+    margin: 20px 0;
+  }
+  
+  .card-container img {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Carousel */
+  .carousel-container {
+    width: 70%;
+    margin: 40px auto;
+  }
+  
+  .carousel-item img {
+    height: 400px;
+    object-fit: contain;
+  }
+  

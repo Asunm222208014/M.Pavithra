@@ -1,0 +1,23 @@
+{/* Cards Section */}
+      <div className="row row-cols-1 row-cols-md-5 g-4 cards-row">
+        {[
+          { src: "/images/makeup.jpeg", title: "MAKEUP" },
+          { src: "/images/skincare.jpeg", title: "SKIN CARE" },
+          { src: "/images/haircare.jpeg", title: "HAIR CARE" },
+          { src: "/images/body and bath.jpeg", title: "BATH & BODY" },
+          { src: "/images/fran.jpeg", title: "FRAGRANCE" },
+        ].map((card, index) => (
+          <div className="col" key={index}>
+            <div className="card card-container">
+              <img
+                src={card.src}
+                className="card-img-top"
+                alt={card.title}
+              />
+              <div className="card-body">
+                <h5 className="card-title">{card.title}</h5>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
